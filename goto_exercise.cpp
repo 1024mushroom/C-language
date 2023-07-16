@@ -6,9 +6,9 @@ int main() {
 	char arr[20] = { 0 };
 	system("shutdown -s -t 30");
 again:
-	printf("ÇëÊäÈë\"ÎÒÊÇÉµ±Æ\"£¬·ñÔòµçÄÔ½«»áÔÚ30ÃëÄÚ¹Ø»ú\n");
-	scanf("%d", arr);
-	if (strcmp(arr, "ÎÒÊÇÉµ±Æ") == 0) {
+	printf("è¯·è¾“å…¥\"æˆ‘æ˜¯å‚»é€¼\"ï¼Œå¦åˆ™ç”µè„‘å°†ä¼šåœ¨30ç§’å†…å…³æœº\n");
+	scanf("%s", arr);
+	if (strcmp(arr, "æˆ‘æ˜¯å‚»é€¼") == 0) {
 		system("shutdown -a");
 	}
 	else {
